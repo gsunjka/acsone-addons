@@ -1,0 +1,176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * mass_mailing_distribution_list
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 23:22+0000\n"
+"PO-Revision-Date: 2015-03-05 23:22+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mass_mailing_distribution_list
+#: view:distribution.list:mass_mailing_distribution_list.distribution_list_search
+msgid "Allow Mail Forwarding"
+msgstr "Mail Forwarding erlauben"
+
+#. module: mass_mailing_distribution_list
+#: help:distribution.list,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "Datum, wann die letzten Nachricht zu diesem Thema verschickt wurde"
+
+#. module: mass_mailing_distribution_list
+#: model:ir.model,name:mass_mailing_distribution_list.model_distribution_list
+#: view:mail.mass_mailing:mass_mailing_distribution_list.view_mail_mass_mailing_search
+#: field:mail.mass_mailing,distribution_list_id:0
+msgid "Distribution List"
+msgstr "Verteilerliste"
+
+#. module: mass_mailing_distribution_list
+#: model:ir.model,name:mass_mailing_distribution_list.model_mail_compose_message
+msgid "Email composition wizard"
+msgstr "Wizard E-Mail Erstellung"
+
+#. module: mass_mailing_distribution_list
+#: code:addons/mass_mailing_distribution_list/distribution_list.py:285
+#: code:addons/mass_mailing_distribution_list/distribution_list.py:318
+#, python-format
+msgid "Error"
+msgstr "Fehler"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_follower_ids:0
+msgid "Followers"
+msgstr "Follower"
+
+#. module: mass_mailing_distribution_list
+#: help:distribution.list,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Beinhaltet die Chatter Zusammenfassung (Anzahl Nachrichten, ...). Diese Zusammenfassung is im html Format, damit sie in die Kanban Ansicht eingefügt werden kann."
+
+#. module: mass_mailing_distribution_list
+#: help:distribution.list,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "Wenn angekreuzt benötigen neue Nachrichten Ihre Aufmerksamkeit."
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_is_follower:0
+msgid "Is a Follower"
+msgstr "Ist ein Follower"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_last_post:0
+msgid "Last Message Date"
+msgstr "Datum der letzten Nachricht"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,mail_alias_id:0
+msgid "Mail Alias"
+msgstr "E-Mail Alias"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,mail_forwarding:0
+msgid "Mail Forwarding"
+msgstr "E-Mail Forwarding"
+
+#. module: mass_mailing_distribution_list
+#: model:ir.model,name:mass_mailing_distribution_list.model_mail_mass_mailing
+msgid "Mass Mailing"
+msgstr "Massen E-Mail"
+
+#. module: mass_mailing_distribution_list
+#: model:ir.model,name:mass_mailing_distribution_list.model_merge_distribution_list
+msgid "Merge Distribution Lists Wizard"
+msgstr "Wizard Zusammenfassung Verteilerlisten"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_ids:0
+msgid "Messages"
+msgstr "Nachrichten"
+
+#. module: mass_mailing_distribution_list
+#: help:distribution.list,message_ids:0
+msgid "Messages and communication history"
+msgstr "Nachrichten und Kommunikationshistorie"
+
+#. module: mass_mailing_distribution_list
+#: code:addons/mass_mailing_distribution_list/distribution_list.py:285
+#, python-format
+msgid "Mode \"%s\" is not a valid mode"
+msgstr "Modus \"%s\" ist kein valider Modus."
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,newsletter:0
+#: field:merge.distribution.list,is_newsletter:0
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#. module: mass_mailing_distribution_list
+#: view:distribution.list:mass_mailing_distribution_list.distribution_list_search
+msgid "Newsletters"
+msgstr "Newsletter"
+
+#. module: mass_mailing_distribution_list
+#: view:distribution.list:mass_mailing_distribution_list.distribution_list_form
+#: field:distribution.list,opt_in_ids:0
+msgid "Opt-In"
+msgstr ""
+
+#. module: mass_mailing_distribution_list
+#: view:distribution.list:mass_mailing_distribution_list.distribution_list_form
+#: field:distribution.list,opt_out_ids:0
+msgid "Opt-Out"
+msgstr ""
+
+#. module: mass_mailing_distribution_list
+#: model:ir.model,name:mass_mailing_distribution_list.model_mail_mail
+msgid "Outgoing Mails"
+msgstr "Ausgehende E-Mails"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,partner_path:0
+msgid "Partner Path"
+msgstr "Pfad Partner"
+
+#. module: mass_mailing_distribution_list
+#: code:addons/mass_mailing_distribution_list/distribution_list.py:319
+#, python-format
+msgid "Please contact your Administrator to configure a \"catchall\" email alias"
+msgstr "Bitte kontaktieren Sie Ihren Administrator um ein \"catchall\" E-Mail Alias zu erstellen"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_summary:0
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,message_unread:0
+msgid "Unread Messages"
+msgstr "Ungelesene Nachrichten"
+
+#. module: mass_mailing_distribution_list
+#: field:distribution.list,website_message_ids:0
+msgid "Website Messages"
+msgstr "Nachrichten von der Webseite"
+
+#. module: mass_mailing_distribution_list
+#: help:distribution.list,website_message_ids:0
+msgid "Website communication history"
+msgstr "Kommunikationshistorie Webseite"
+
+#. module: mass_mailing_distribution_list
+#: view:merge.distribution.list:mass_mailing_distribution_list.merge_distribution_list_wizard
+msgid "[('newsletter','=', is_newsletter)]"
+msgstr ""
+
+#. module: mass_mailing_distribution_list
+#: view:mail.mass_mailing:mass_mailing_distribution_list.view_mail_mass_mailing_form
+msgid "{'invisible': [('distribution_list_id', '!=', False)]}"
+msgstr ""
+
